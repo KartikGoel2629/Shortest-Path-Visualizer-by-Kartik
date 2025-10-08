@@ -7,31 +7,24 @@ This project provides a graphical simulation of shortest-path algorithms on a gr
 
 The visualizer currently supports:
 
-Breadth-First Search (BFS) — guarantees shortest path in unweighted grids
-
-Depth-First Search (DFS) — does not guarantee shortest path
-
-Dijkstra’s Algorithm — for weighted or unweighted graphs (guarantees shortest path)
-
-A* (A-star) — heuristic-driven search, typically faster, still finds shortest path
+-Breadth-First Search (BFS) — guarantees shortest path in unweighted grids
+-Depth-First Search (DFS) — does not guarantee shortest path
+-Dijkstra’s Algorithm — for weighted or unweighted graphs (guarantees shortest path)
+-A* (A-star) — heuristic-driven search, typically faster, still finds shortest path
 
 ### Other features:
 
-Interactive grid: click to create obstacles, set start & end
-
-Clear / reset grid
-
-Visual step-by-step exploration
-
-Speed control (if implemented)
-
-Real-time feedback, coloring of visited nodes & final path
+-Interactive grid: click to create obstacles, set start & end
+-Clear / reset grid
+-Visual step-by-step exploration
+-Speed control (if implemented)
+-Real-time feedback, coloring of visited nodes & final path
 
 ## How It Works
 
 Grid Representation
 The map is represented as a 2D grid (rows × columns). Each cell is a node (or tile) that may be open or an obstacle.
-
+ 
 Neighbors & Edges
 From each non-obstacle tile, edges connect to its neighboring (up/down/left/right or optionally diagonals) tiles.
 
