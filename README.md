@@ -15,7 +15,7 @@ Dijkstra’s Algorithm — for weighted or unweighted graphs (guarantees shortes
 
 A* (A-star) — heuristic-driven search, typically faster, still finds shortest path
 
-Other features:
+### Other features:
 
 Interactive grid: click to create obstacles, set start & end
 
